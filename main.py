@@ -7,6 +7,8 @@ from django.utils import simplejson
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
 
+template.register_template_library('filters.textfilters')
+
 class Auth(BetterHandler):
   def post(self):
     email = self.request.get('email')
