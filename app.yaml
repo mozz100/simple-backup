@@ -1,5 +1,5 @@
-application: simple-backup
-version: 1
+application: mozz-simple-backup
+version: 2
 runtime: python
 api_version: 1
 
